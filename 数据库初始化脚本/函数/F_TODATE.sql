@@ -1,0 +1,5 @@
+create or replace FUNCTION F_TODATE (indatestr in VARCHAR2)
+RETURN DATE AS 
+BEGIN
+  RETURN TO_DATE(indatestr,'YYYY-MM-DD HH24:Mi:SS');
+END F_TODATE;
