@@ -28,7 +28,7 @@ public class ConnectDB {
             // 加载驱动
             Class.forName(driver);
             // 获取数据库连接
-            //conn=DriverManager.getConnection(url,"CHAN","379859");
+            //conn=DriverManager.getConnection(url,"CHAN","******");
             conn=DriverManager.getConnection(url2,userName,passwd);
             System.out.println("数据库连接成功");
         }catch (Exception e){
